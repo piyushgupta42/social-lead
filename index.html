@@ -14,7 +14,6 @@
   <meta name="robots" content="index, follow">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
-  
   <link href="https://fonts.googleapis.com/css?family=Montserrat:800" rel="stylesheet">
   <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   <link rel="stylesheet" href="https://www.socialcentral.in/css/style.css">
@@ -22,7 +21,6 @@
   <link rel="stylesheet" href="https://www.socialcentral.in/css/animate.css">
   <script src="https://kit.fontawesome.com/cea0453a87.js"></script>
 <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
-
   <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
@@ -48,24 +46,22 @@
       <span></span>
       <span></span>
     </div>
-
 <section class="salessupports leading_form" id="salessupports">
     <div class="salessupport" id="salessupport">
       <div class="container">
         <div class="cont-back" id="cont-back">
           <div class="row">
-            
             <div class="col-lg-6 col-md-6">
               <div class="contact" id="contact">
-              <h3 class="text-center text-capitalize">weaving digital brand stories</h3>
-            </div>
+                <h3 class="text-center text-capitalize">weaving digital brand stories</h3>
+              </div>
                 <img src="images/leading_vector.png" class="img-responsive" alt="sales - social central Media">
             </div>
             <div class="col-lg-6 contactform" id="contactform">
               <div class="leading_logo">
-                <a href="http://www.socialcentral.in/">
+                <!-- <a href="http://www.socialcentral.in/"> -->
                   <img src="images/logo-white.png" class="img-responsive logo" id="logo" alt="Social Central Media Solutions">
-              </a>
+              <!-- </a> -->
               </div>
                 <div class="rightsec"> 
                   <div class="formBox" id="formBox">
@@ -103,25 +99,9 @@
     </div>
 </section>
 
-
 <footer id="footer" class="leading_footer">
   <div class="container-fluid">
     <div class="row">
-     <!--  <div class="quicklinks col-lg-6 col-md-6 col-sm-12 col-xs-12">
-        <ul class="footer-menu" id="footer-menu">
-          <li><a href="http://www.socialcentral.in/">Home</a></li>
-          <li class="hidden-xs"><a href="http://www.socialcentral.in/#what-we-do">What we do</a></li>
-          <li><a href="http://www.socialcentral.in/#who-we-are">Who we are</a></li>
-          <li class="hidden-md hidden-lg hidden-sm">
-              <a href="http://www.socialcentral.in/#whatwedo" class="hover-target">What we do</a>
-            </li>
-          <li><a href="http://www.socialcentral.in/#ourwork">Our Work</a></li>
-          <li><a href="http://www.socialcentral.in/#ourclients">Our Clients</a></li>
-          <li><a href="http://www.socialcentral.in/#salessupports">Contact Us</a></li>
-          <li><a href="http://www.socialcentral.in/career">Careers</a></li>
-          <li><a href="http://www.socialcentral.in/sitemap.xml">Site Map</a></li>
-        </ul>
-      </div> -->
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
           <div class="copyright text-center" id="copyright">
             <p>&copy; 2020 <a href="http://www.socialcentral.in/">Social Central</a>. All right reserved.</p>
@@ -130,7 +110,6 @@
     </div>
   </div>
 </footer>
-
 <script src="https://www.socialcentral.in/js/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
@@ -161,7 +140,6 @@ function sendContact() {
      }
 }
 
-
 function validateContact() {
     var valid = true; 
     $(".demoInputBox").css('background-color','');
@@ -181,8 +159,6 @@ function validateContact() {
         $("#userEmail").css('background-color','#FFFFDF');
         valid = false;
     }
-
-
     if(!$(".userMobile").val()) {
         $(".userMobile-info").html("(required)");
         $(".userMobile").css('background-color','#FFFFDF');
@@ -193,7 +169,6 @@ function validateContact() {
         $(".userMobile").css('background-color','#FFFFDF');
         valid = false;
     }
-
     return valid;
 }
 </script>
@@ -208,7 +183,6 @@ function validateContact() {
   .leading_logo #logo {width: 20%; margin: 0 auto; padding-bottom: 5%;position: relative;}
   .leading_form .formBox{border-radius: 10px;}
   .leading_footer .copyright{ margin: 1% 0 0 0;}
-
 @media screen and (max-width: 640px){
   #cont-back {width: 100%;  margin: 0 auto; background: 0 0;}
   #contact h3 { font-size: 2.5rem;}
