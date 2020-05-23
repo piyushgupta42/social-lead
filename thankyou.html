@@ -17,8 +17,8 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:800" rel="stylesheet">
   <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   <link rel="stylesheet" href="https://www.socialcentral.in/css/style.css">
-  <link rel="stylesheet" href="https://www.socialcentral.in/css/menu.css">
-  <link rel="stylesheet" href="https://www.socialcentral.in/css/animate.css">
+  <!-- <link rel="stylesheet" href="https://www.socialcentral.in/css/menu.css">
+  <link rel="stylesheet" href="https://www.socialcentral.in/css/animate.css"> -->
   <script src="https://kit.fontawesome.com/cea0453a87.js"></script>
 <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
   <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
@@ -46,23 +46,29 @@
       <span></span>
       <span></span>
     </div>
-<!--  -->
-<section class="thank-wrapper">
     <div class="container">
+<section class="thank-wrapper">
+    
         <div class="text-center mt-3">
-            <h2 class="text-capitalize font-weight-bold font_gradient">Thank You!</h2>
+            <h2 class="text-capitalize font-weight-bold">Thank You!</h2>
             <div class="sub-title">We will get in touch with you shortly</div>
-            <!-- <button name="submit" class="btn btn-primary btnsize btn10" id="btnsize"><span>View Website</span></button> -->
+            <a href="https://www.socialcentral.in/">
+            <h3>
+              <button name="submit" class="btn btn-danger btnsize btn10" id="btnsize">
+                <span>View Website</span>
+              </button>
+            </h3>
+          </a>
         </div>
-    </div>
-</section>
+    
+</section></div>
 
 <footer id="footer" class="leading_footer">
   <div class="container-fluid">
     <div class="row">
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
           <div class="copyright text-center" id="copyright">
-            <p>&copy; 2020 <a href="http://www.socialcentral.in/">Social Central</a>. All right reserved.</p>
+            <p>&copy; 2020 <a href="https://www.socialcentral.in/">Social Central</a>. All right reserved.</p>
           </div>
       </div>
     </div>
@@ -87,6 +93,8 @@ body{
   margin: 0;
   color: #fff;
 }
+a{color:#fff;}
+a:hover{text-decoration: none;color:#fff;}
 .thank-wrapper{
  top: 45%;
   left: 50%;
@@ -98,6 +106,10 @@ body{
       -ms-flex-align: center;
           align-items: center;
 }
+.thank-wrapper h2{
+  font-size: 11rem;
+  margin:0;
+}
 .sub-title {
     font-size: 3rem;
 }
@@ -105,10 +117,17 @@ footer{
   bottom: 0;
   position: absolute;
   width: 100%;
+  background:#000;
 }
+.copyright {
+    margin: 1% 0 0 0;
+}
+.btn10{background: #ef4909;}
+.btn10::before {background: #ef4909;}
+span { font-size: 2rem;}
 @media screen and (max-width: 640px){
   .sub-title {font-size: 2rem;}
-  h2{font-size: 7rem;}
+  .thank-wrapper h2{font-size: 7rem;}
 }
 
 </style>
